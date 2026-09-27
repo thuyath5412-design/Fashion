@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>အထည်ချုပ် Order App</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f3f3f3;
+    margin:0;
+    padding:20px;
+}
+
+.container{
+    max-width:600px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 3px 10px #ccc;
+}
+
+h1{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+}
+
+input,select,textarea,button{
+    width:100%;
+    padding:12px;
+    margin-top:5px;
+    box-sizing:border-box;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    margin-top:20px;
+    background:#222;
+    color:white;
+    border:none;
+    font-size:16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>အထည်ချုပ် Order App</h1>
+
+<label>Customer Name</label>
+<input type="text" placeholder="ဖောက်သည်အမည်">
+
+<label>Phone</label>
+<input type="text" placeholder="ဖုန်းနံပါတ်">
+
+<label>အထည်အမျိုးအစား</label>
+<select>
+<option>ရှပ်အင်္ကျီ</option>
+<option>ဘောင်းဘီ</option>
+<option>ဝတ်စုံ</option>
+<option>အခြား</option>
+</select>
+
+<label>အတိုင်းအတာ</label>
+<textarea placeholder="အတိုင်းအတာများ ရေးပါ"></textarea>
+
+<label>မှတ်ချက်</label>
+<textarea placeholder="အထူးမှာကြားချက်"></textarea>
+
+<button>Order သိမ်းမည်</button>
+
+</div>
+
+</body>
+</html>
